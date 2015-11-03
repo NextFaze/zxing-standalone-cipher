@@ -55,7 +55,7 @@
                android:logo="@mipmap/ic_launcher"
                android:label="@string/app_name"
                android:allowBackup="true">
-    <activity android:name=".CaptureActivity"
+    <activity android:name=".CipherCaptureActivity"
               android:screenOrientation="sensorLandscape"
               android:clearTaskOnLaunch="true"
               android:stateNotNeeded="true"

@@ -79,7 +79,7 @@ import java.util.Map;
  * @author dswitkin@google.com (Daniel Switkin)
  * @author Sean Owen
  */
-public final class CaptureActivity extends Activity implements SurfaceHolder.Callback {
+public abstract class CaptureActivity extends Activity implements SurfaceHolder.Callback {
 
   private static final String TAG = CaptureActivity.class.getSimpleName();
 
@@ -113,7 +113,7 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
   private String characterSet;
   private HistoryManager historyManager;
   private InactivityTimer inactivityTimer;
-  private BeepManager beepManager;
+  BeepManager beepManager;
   private AmbientLightManager ambientLightManager;
 
   ViewfinderView getViewfinderView() {
