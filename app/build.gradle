@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "com.google.zxing.client.android"
+        applicationId "com.nextfaze.zxing.cipherlabs"
         minSdkVersion 15
         targetSdkVersion 22
     }
