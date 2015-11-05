@@ -18,6 +18,7 @@ public class CipherCaptureActivity extends CaptureActivity {
     // TODO: Support more formats
     private enum CipherBarcodeFormat {
         CODE_39("[]A0", BarcodeFormat.CODE_39),
+        CODE_128("[]C0", BarcodeFormat.CODE_128),
         ITF("[]I0", BarcodeFormat.ITF),
         EAN_13("[]E0", BarcodeFormat.EAN_13);
 
